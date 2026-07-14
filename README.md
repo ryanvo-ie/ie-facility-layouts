@@ -37,9 +37,9 @@ It serves as an introductory CAD exercise focused on creating a simple U-shaped 
 - **Technical Problem Solving:** Troubleshooting software formatting, syntax requirements, and visual scales under constraints.
 
 ## Files Included
-- [u_cell_layout.dwg](u_cell_layout.dwg) - The native, editable AutoCAD project file containing all layers and geometry.
-- [u_cell_layout.pdf](u_cell_layout.pdf) - The formal, printed engineering blueprint ready for presentation.
-- [u_cell_screenshot.png](u_cell_screenshot.png) - A high-resolution cropped layout rendering used for portfolio visualization.
+- **[u_cell_layout.dwg](u_cell_layout.dwg):** Raw CAD work — The native, editable AutoCAD project file containing all layout paths, layers, and exact dimensions.
+- **[u_cell_layout.pdf](u_cell_layout.pdf):** Printable blueprint — The formal, high-resolution exported vector layout ready for professional printing and presentation.
+- **[u_cell_screenshot.png](u_cell_screenshot.png):** Portfolio image — A clean, cropped visual capture of the 2D layout layout used for quick-view web rendering.
 
 ## Key Takeaways
 This lab demonstrated that facility layout design requires a strong balance between clear visual communication and geometric accuracy. Overcoming the initial challenges of command inputs, scaling dimension text, and alignment snap tools built a solid foundational understanding of computer-aided drafting that I will directly apply to future manufacturing cell configurations and factory design optimization.
