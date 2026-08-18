@@ -51,3 +51,13 @@ These technical drills directly track the structured curriculum from the [CAD in
   * **Troubleshooting & Precision Control**: Encountered a minor fractional precision variance (`9'-11.6400"` instead of a clean `10'`), highlighting the critical importance of exact object snapping (`OSNAP`) and unit tolerance verification in complex blueprints.
 
 ![AutoCAD Exercise 4 Layout](autocad-exercise-4.png)
+
+### Exercise 5: Complex Symmetrical Truss Layout
+
+* **Objective**: Practice using duplication tools to build a complex, symmetrical structural frame.
+* **Commands Used**: `LINE`, `COPY`, `MIRROR`, and `DIMALIGNED`.
+* **What I Learned**:
+  * How to use the **COPY** and **MIRROR** tools to instantly replicate the smaller inner triangles instead of drawing them from scratch.
+  * **Precision Analysis**: Noticed a minor fractional variance (`19'-10.5025"` instead of a clean `20'`), which helps practice identifying where object snaps can catch tiny angle offsets over long distances.
+
+![AutoCAD Exercise 5 Layout](autocad-exercise-5.png)
