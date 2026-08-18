@@ -61,3 +61,35 @@ These technical drills directly track the structured curriculum from the [CAD in
   * **Precision Analysis**: Noticed a minor fractional variance (`19'-10.5025"` instead of a clean `20'`), which helps practice identifying where object snaps can catch tiny angle offsets over long distances.
 
 ![AutoCAD Exercise 5 Layout](autocad-exercise-5.png)
+
+### Exercise 6: Curvilinear Intersecting Profile
+
+* **Objective**: Master arc/circle generation and practice cleaning up overlapping curved boundaries.
+* **Commands Used**: `CIRCLE`, `TRIM` (`TR`), and `DIMRADIUS` (`DRA`).
+* **What I Learned**:
+  * How to create precise concentric and intersecting circular geometry using exact radius constraints ($R20$ and $R40$).
+  * How to use the **Trim** tool to cut away internal overlapping paths to merge multiple circles into a single fluid outline.
+  * **Precision Analysis**: Observed a minor fractional alignment shift on the linear measurements (`19'-11.1307"` and `39'-11.3107"`), highlighting how linear dimension snaps interact with curved quadrant object anchors.
+
+![AutoCAD Exercise 6 Layout](autocad-exercise-6.png)
+
+### Exercise 7: Thick-Walled Angular Enclosure
+
+* **Objective**: Combine precise angular drafting with uniform boundary offsetting across mixed linear and slanted profiles.
+* **Commands Used**: `LINE`, `OFFSET`, `DIMLINEAR`, and `DIMALIGNED`.
+* **What I Learned**:
+  * How to create uniform internal clearance paths (the 5' spacing) using parallel offset tracking.
+  * How to combine vertical/horizontal linear dimensions (`DIMLINEAR`) with slanted true-length measurements (`DIMALIGNED`) on the same complex part footprint.
+  * How to manage multi-directional tracking vectors where a fixed-degree diagonal wall transitions back into a sharp horizontal plane.
+
+![AutoCAD Exercise 7 Layout](autocad-exercise-7.png)
+
+### Exercise 8: Advanced Symmetrical Enclosure & Angled Profile
+* **Objective**: Combine advanced geometric modification with precise angular drafting to build a complex, completely symmetrical layout.
+* **Commands Used**: `LINE`, `MIRROR`, `TRIM`, `DIMRADIUS`, `DIMANGULAR`, and `DIMALIGNED`.
+* **What I Learned**:
+  * How to construct only the left half of a highly detailed, complex layout and instantly mirror a perfect copy to complete the right side.
+  * How to accurately measure and display oblique surfaces using Aligned Dimensions (`DIMALIGNED`) alongside Angular Dimensions (`DIMANGULAR`) to show exact pitch slopes (like the $60^\circ$ indicator).
+  * **Precision Verification**: Noticed a minor trailing precision variance at the very top line (`23'-0.0300"` instead of a flat `23'`), practicing how to audit and identify microscopic offset variances in large multi-segment paths.
+
+![AutoCAD Exercise 8 Layout](autocad-exercise-8.png)
