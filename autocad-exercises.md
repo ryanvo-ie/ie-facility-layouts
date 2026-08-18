@@ -18,4 +18,4 @@ These technical drills directly track the structured curriculum from the [CAD in
   * How to follow blueprint dimensions to trace a continuous path.
   * How to use the 'Close' command to complete the shape cleanly at the starting point.
 
-(Insert screenshot of AutoCAD Exercise 1 here)
+![AutoCAD Exercise #1](autocad-exercise-1.png)
