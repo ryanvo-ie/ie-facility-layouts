@@ -19,3 +19,25 @@ These technical drills directly track the structured curriculum from the [CAD in
   * How to use the 'Close' command to complete the shape cleanly at the starting point.
 
 ![AutoCAD Exercise #1](autocad-exercise-1.png)
+
+### Exercise 2: Multi-Shape Profile Layout
+
+* **Objective**: Practice drawing more complex combinations of shapes and managing internal layout spaces.
+* **Commands Used**: `LINE`, `RECTANGLE` (`REC`), and `Ortho Mode` (`F8`).
+* **What I Learned**:
+  * How to transition from a basic single-line shape to drawing multiple standalone objects in one workspace.
+  * How to use tracking vectors to leave exact spacing gaps (like the 20' paths) between separate shapes.
+  * How to efficiently use the standard Rectangle command alongside precise manual coordinates to build vertical columns.
+
+![AutoCAD Exercise 2 Layout](autocad-exercise-2.png)
+
+### Exercise 3: Angular Profile & Roof Layout
+
+* **Objective**: Learn how to draw precise diagonal lines using lengths and specific degree constraints.
+* **Commands Used**: `POLYLINE` (`PLINE`), `DIMALIGNED`, and `DIMANGULAR`.
+* **What I Learned**:
+  * How to input precise relative polar coordinates using the `@length<angle` format to construct symmetrical sloped geometry.
+  * How to toggle Ortho Mode off to successfully draft complex angular paths without losing precision.
+  * How to apply Aligned Dimensions (`DIMALIGNED`) for accurate true-length slanted measurements and Angular Dimensions (`DIMANGULAR`) to display roof pitch degrees.
+
+![AutoCAD Exercise 3 Layout](autocad-exercise-3.png)
