@@ -41,3 +41,13 @@ These technical drills directly track the structured curriculum from the [CAD in
   * How to apply Aligned Dimensions (`DIMALIGNED`) for accurate true-length slanted measurements and Angular Dimensions (`DIMANGULAR`) to display roof pitch degrees.
 
 ![AutoCAD Exercise 3 Layout](autocad-exercise-3.png)
+
+### Exercise 4: Advanced Multi-Feature Layout
+
+* **Objective**: Manage complex internal geometry with precise dimensional alignment across a large ($100'$) base footprint.
+* **Commands Used**: `LINE`, `OFFSET`, and `DIMLINEAR`.
+* **What I Learned**:
+  * How to coordinate multiple vertical profiles while maintaining a unified, solid base floor plan.
+  * **Troubleshooting & Precision Control**: Encountered a minor fractional precision variance (`9'-11.6400"` instead of a clean `10'`), highlighting the critical importance of exact object snapping (`OSNAP`) and unit tolerance verification in complex blueprints.
+
+![AutoCAD Exercise 4 Layout](autocad-exercise-4.png)
